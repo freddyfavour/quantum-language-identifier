@@ -42,8 +42,18 @@ This work demonstrates the potential of quantum computing in natural language pr
    ```
    pip install qiskit qiskit-aer scipy pandas numpy faker
    ```
+   Or create a requirements.txt file
+   ```
+   qiskit==1.0.2
+   qiskit-aer==0.13.2
+   scipy==1.11.4
+   pandas==2.1.4
+   numpy==1.26.2
+   faker==22.0.0
+   scikit-learn==1.3.2
+   ```
 
-3. Place `bigrams.csv` in your working directory or Google Drive.
+4. Place `bigrams.csv` in your working directory or Google Drive.
 
 ## Usage
 
